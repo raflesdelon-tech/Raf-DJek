@@ -1,0 +1,63 @@
+import { ServiceItem } from '../types';
+
+export const ADMIN_WHATSAPP_NUMBER = '6281347712446';
+export const ADMIN_WHATSAPP_DISPLAY = '+62 813-4771-2446';
+
+export const SERVICES: ServiceItem[] = [
+  {
+    id: 'd-ride',
+    name: "D'Ride",
+    tagline: 'Ojek Motor Gesit & Cepat',
+    category: 'Transportasi Motor',
+    basePrice: 0,
+    perKmPrice: 0,
+    icon: 'Bike',
+    color: '#2563EB',
+    accentBg: 'from-blue-500/20 to-sky-500/10',
+    badge: 'Ojek Motor',
+    notesPlaceholder: 'Contoh: Helm bersih, jemput di lobi depan, jangan ngebut',
+    description: 'Layanan antar jemput penumpang menggunakan sepeda motor cepat dan gesit.',
+  },
+  {
+    id: 'd-send',
+    name: "D'Send",
+    tagline: 'Kurir Pengiriman Paket & Dokumen',
+    category: 'Kurir Barang',
+    basePrice: 0,
+    perKmPrice: 0,
+    icon: 'PackageCheck',
+    color: '#10B981',
+    accentBg: 'from-emerald-500/20 to-teal-500/10',
+    badge: 'Kurir Barang',
+    notesPlaceholder: 'Contoh: Paket baju 1 box, penerima Bpk. Joko (0812xxxx), titip satpam',
+    description: 'Layanan kurir pengiriman barang, dokumen, dan paket kilat sampai di hari yang sama.',
+  },
+  {
+    id: 'd-food',
+    name: "D'Food",
+    tagline: 'Layanan Beli & Antar Makanan',
+    category: 'Beli Makanan',
+    basePrice: 0,
+    perKmPrice: 0,
+    icon: 'UtensilsCrossed',
+    color: '#EA580C',
+    accentBg: 'from-orange-500/20 to-amber-500/10',
+    badge: 'Beli Makanan',
+    notesPlaceholder: 'Contoh: Nasi Goreng Spesial 1 porsi pedas sedang, Es Teh Manis 1. Warung Bu Siti',
+    description: 'Layanan titip beli makanan dan minuman favorit di warung, resto, atau cafe terdekat.',
+  },
+  {
+    id: 'd-mart',
+    name: "D'Mart",
+    tagline: 'Belanja ke Minimarket & Toko',
+    category: 'Belanja Minimarket',
+    basePrice: 0,
+    perKmPrice: 0,
+    icon: 'ShoppingCart',
+    color: '#7C3AED',
+    accentBg: 'from-purple-500/20 to-indigo-500/10',
+    badge: 'Belanja Minimarket',
+    notesPlaceholder: 'Contoh: Indomie 5 bks, Minyak Goreng 1L, Telur 1/2 kg di Indomaret / Alfamart terdekat',
+    description: 'Layanan belanja kebutuhan harian ke minimarket (Indomaret, Alfamart) atau toko terdekat.',
+  },
+];

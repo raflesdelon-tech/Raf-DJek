@@ -1,0 +1,6 @@
+{
+  "name": "D'Jek - Layanan Transportasi & Kurir Online",
+  "description": "Aplikasi pemesanan transportasi, antar makanan, dan kurir kilat D'Jek via WhatsApp dengan integrasi Google Maps Places Autocomplete.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
